@@ -132,3 +132,6 @@ $ sudo mysql </tmp/studentapp.sql
 ```
 
 Finally if we hit the Web Server Public IP then we would be able to fetch application and application will start updating the students data in database. 
+
+Note:
+Tomcat App server does not startup automatically. There is no option of systemctl enable.
